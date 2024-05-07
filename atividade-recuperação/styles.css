@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: flex;
+    background-color: rgb(129, 86, 68);
+    color: rgb(255, 255, 255);
+    padding: 10px 70px;
+    justify-content: space-between;
+}
+header, li { 
+    list-style: none;
+}
+
+p {
+    text-align: left;
+    font-size: 30px;
+}
+.container img {
+    max-width:400px;
+    max-height:300px;
+    width: auto;
+    height: auto;
+}
+img {
+    float: right; /* Define a imagem para flutuar à esquerda */
+    margin-left: 20px; /* Define a margem à direita para afastar o conteúdo do lado direito da imagem */
+    width: 50%;
+}
+.informacao {
+    width: 50%; /* Define a largura do contêiner */
+    
+}
+ p {
+    float: right; /* Define o texto para flutuar à direita */
+    margin-left: 20px; /* Define a margem à esquerda para afastar o conteúdo do lado esquerdo do texto */
+}
